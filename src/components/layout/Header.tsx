@@ -144,7 +144,7 @@ const Dropdown = styled.div<{ open: boolean }>`
   }
 `;
 
-const DropdownLink = styled.a<{ active?: boolean }>`
+const DropdownLink = styled.span<{ active?: boolean }>`
   display: flex;
   align-items: center;
   gap: 10px;
@@ -265,7 +265,7 @@ const MobileNavGroup = styled.div`
   padding: 8px 12px 4px;
 `;
 
-const MobileNavLink = styled.a<{ active?: boolean }>`
+const MobileNavLink = styled.span<{ active?: boolean }>`
   display: flex;
   align-items: center;
   gap: 10px;

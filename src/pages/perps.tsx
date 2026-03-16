@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { usePerps } from '../../hooks/usePerps';
-import { useThemeContext } from '../../context/ThemeContext';
-import PriceChart from '../../components/trade/PriceChart';
-import OrderBookPanel from '../../components/trade/OrderBook';
-import OrderPanel from '../../components/trade/OrderPanel';
-import PositionsTable from '../../components/trade/PositionsTable';
-import { Text } from '../../components/ui/Typography';
+import { usePerps } from '../hooks/usePerps';
+import { useThemeContext } from '../context/ThemeContext';
+import PriceChart from '../components/trade/PriceChart';
+import OrderBookPanel from '../components/trade/OrderBook';
+import OrderPanel from '../components/trade/OrderPanel';
+import PositionsTable from '../components/trade/PositionsTable';
+import { Text } from '../components/ui/Typography';
 
 /* ─── Layout ─────────────────────────────────────────────────────────────── */
 const Page = styled.div`

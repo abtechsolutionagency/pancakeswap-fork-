@@ -116,6 +116,10 @@ const ApplyBanner = styled.div`
   border-radius:24px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;
 `;
 
+export async function getServerSideProps() {
+  return { props: {} };
+}
+
 export default function CakePadPage() {
   const { isConnected } = useWeb3();
   const {
